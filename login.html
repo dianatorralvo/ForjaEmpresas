@@ -11,9 +11,10 @@
 </head>
 <body>
     <section id="login">
-        <button class="b-ingreso">Ingresar</button>
+        <a id="b-inicio" href="./index.html" target="_blank">Volver al inicio</a>
+        <form name="form" action="pacientes.html" method="get">
         <div class="ingreso">
-            <p><img src="./img/0. logoforja.png" alt="logo FORJAEMPRESA">Contigo siempre</p>
+            <p><img src="./img/0. logoforja.png" alt="logo FORJAEMPRESA">Contigo, siempre!</p>
             <div class="form-group">
                 <label class="form-label" for="usuario">Usuario</label>
                 <input class="form-input" type="text" name="usuario" id="usuario">
@@ -23,11 +24,11 @@
                     <input class="form-input" type="password" name="password" id="password">
                     </div>
                     <div class="form-group">
-                        <a class="form-olvido" href="">Recordar Password</a>
-                        <button class="b-ingreso">Ingresar</button>
+                        <a class="form-olvido" href="">¿Olvidaste tu contraseña?</a>
+                        <button class="b-ingreso" type="submit">Ingresar</button>
                     </div>
-                </form>
-    </div>
+        </div>
+        </form>
 	</section>
 </body>
 </html>
