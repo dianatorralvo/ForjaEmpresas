@@ -244,13 +244,13 @@ footer p{
 
 
 #login{
-background-image: url(../img/10.png);
-background-repeat: repeat-x;
-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    background-image: url(../img/10.png);
+    background-repeat: repeat-x;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .ingreso img{
@@ -266,6 +266,8 @@ align-items: center;
     padding: 3rem;
     font-weight: 600;
     margin-bottom: 2rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .ingreso{
