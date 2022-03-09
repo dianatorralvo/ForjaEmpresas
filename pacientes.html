@@ -5,24 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacientes</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="https://kit.fontawesome.com/f25c3ae372.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="barraNavegacion">
             <img src="./img/0. logoforja.png" alt="logo ForjaEmpresa">
-            <i class="fa-solid fa-house-chimney-user"></i>
-            <i class="fa-solid fa-power-off"></i>
-            <img src="./img/12. franja.svg">
+            <div class="icono-casa"><i class="fa-solid fa-house-chimney-user"></i></div>
+            <div class="icono-off"><i class="fa-solid fa-power-off"></i></div>
         </div>
+        <img class="franja2" src="./img/12. franja.svg">
     </header>
 <main>
     <section>
-        <button class="b-naranja">Agregar<i class="fa-solid fa-user"></i></button>
+        <div class="b-paciente">
+        <a href="formulario.html">Agregar<i class="fa-solid fa-user"></i></a>
         <input type="search" placeholder="Numero de documento">
-            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <a class="b-buscar" href=""></a>
+        <i class="fa-solid fa-magnifying-glass"></i>
     </section>
-    <section>
+    <section id="pacientes">
         <h1>Pacientes</h1>
         <table>
             <tr>
@@ -40,8 +45,8 @@
                 <td>Perezeses</td>
                 <td>2+16</td>
                 <td>
-                    <button>Editar<i class="fa-solid fa-pen"></i></button>
-                    <button>Eliminar<i class="fa-solid fa-square-xmark"></i></button>
+                    <button class="b-editar">Editar<i class="fa-solid fa-pen"></i></button>
+                    <button class="b-eliminar">Eliminar<i class="fa-solid fa-square-xmark"></i></button>
                 </td>
             </tr>
             <tr>
@@ -51,8 +56,8 @@
                 <td>Perez</td>
                 <td>33</td>
                 <td>
-                    <button>Editar<i class="fa-solid fa-pen"></i></button>
-                    <button>Eliminar<i class="fa-solid fa-square-xmark"></i></button>
+                    <button class="b-editar">Editar<i class="fa-solid fa-pen"></i></button>
+                    <button class="b-eliminar">Eliminar<i class="fa-solid fa-square-xmark"></i></button>
                 </td>
             </tr>
             <tr>
@@ -62,8 +67,8 @@
                 <td>Sarmiento</td>
                 <td>28</td>
                 <td>
-                    <button>Editar<i class="fa-solid fa-pen"></i></button>
-                    <button>Eliminar<i class="fa-solid fa-square-xmark"></i></button>
+                    <button class="b-editar">Editar<i class="fa-solid fa-pen"></i></button>
+                    <button class="b-eliminar">Eliminar<i class="fa-solid fa-square-xmark"></i></button>
                 </td>
             </tr>
             <tr>
@@ -73,8 +78,8 @@
                 <td>Paba</td>
                 <td>28</td>
                 <td>
-                    <button>Editar<i class="fa-solid fa-pen"></i></button>
-                    <button>Eliminar<i class="fa-solid fa-square-xmark"></i></button>
+                    <button class="b-editar">Editar<i class="fa-solid fa-pen"></i></button>
+                    <button class="b-eliminar">Eliminar<i class="fa-solid fa-square-xmark"></i></button>
                 </td>
             </tr>
             <tr>
@@ -84,8 +89,8 @@
                 <td>Paba Guillen</td>
                 <td>28</td>
                 <td>
-                    <button>Editar<i class="fa-solid fa-pen"></i></button>
-                    <button>Eliminar<i class="fa-solid fa-square-xmark"></i></button>
+                    <button class="b-editar">Editar<i class="fa-solid fa-pen"></i></button>
+                    <button class="b-eliminar">Eliminar<i class="fa-solid fa-square-xmark"></i></button>
                 </td>
             </tr>
             <tr>
@@ -95,8 +100,8 @@
                 <td>Gutierrez Loaiza</td>
                 <td>35</td>
                 <td>
-                    <button>Editar<i class="fa-solid fa-pen"></i></button>
-                    <button>Eliminar<i class="fa-solid fa-square-xmark"></i></button>
+                    <button class="b-editar">Editar<i class="fa-solid fa-pen"></i></button>
+                    <button class="b-eliminar">Eliminar<i class="fa-solid fa-square-xmark"></i></button>
                 </td>
             </tr>
         </table>
